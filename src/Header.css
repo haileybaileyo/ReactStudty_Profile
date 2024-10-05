@@ -1,0 +1,16 @@
+.Header {
+    color: rgb(37,147,255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header h3 {
+    font-weight: bold;
+    font-size: 24px; 
+}
+
+.Right { 
+    display: flex;
+    justify-content: flex-end; 
+    gap: 30px;
+}
