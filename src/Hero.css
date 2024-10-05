@@ -1,0 +1,47 @@
+.Hero {
+    background-color: #818cf8;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    height: 330px;
+}
+
+.Hero h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.Hero h2 {
+    font-size: 36px;
+    margin-top: 0px;
+}
+
+.Hero h3 {
+    font-size: 28px;
+    margin-top: 0px;
+    opacity: 0.8;
+}
+
+.emoji img {
+    width: 250px;
+    height: 0px;
+    margin-top: 0px;
+    
+}
+
+.GoButton {
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: white;
+    color: #818cf8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.GoButton:hover {
+    background-color: #818cf8;
+    color: white;
+}

@@ -1,19 +1,23 @@
-import './Header.css';
+import React from 'react';
+import './Header.css'; // 스타일을 위한 CSS 파일 임포트
 
-const Header = ()=>{
-    return <div className='Header'>
-        <div className='Portfolio'>
-            <h3>PORTFOLIO</h3>
-        </div>
-        <div className='Right'>   
-            <div className='About'>
-                <h3>ABOUT</h3>
+const Header = () => {
+    return (
+        <header className="Header">
+            <div className="Portfolio">
+                <h1><span role="img" aria-label="face">🧑‍💻</span>PORTFOLIO.</h1>
             </div>
-            <div className='Goal'>
-                <h3>GOAL</h3>
-            </div>
-        </div>
-    </div>
-} 
+            <nav className="Navigation">
+                <ul>
+                    <li>ABOUT</li>
+                    <li>GOAL</li>
+                    <li>CONTACT</li>
+                    <li>☰</li>
+                </ul>
+                
+            </nav>
+        </header>
+    );
+}
 
 export default Header;

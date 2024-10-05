@@ -1,10 +1,14 @@
 import React from 'react';
-import Header from './Header'; // Header.jsx 불러오기
+import Header from './Header';
+import Hero from './Hero';
+import About from './About'; // About 컴포넌트 불러오기
 
 function App() {
     return (
         <div className="App">
-            <Header />  {/* Header 컴포넌트 사용 */}
+            <Header />
+            <Hero />
+            <About /> 
         </div>
     );
 }
